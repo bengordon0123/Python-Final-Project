@@ -17,3 +17,11 @@ if input("Choose a Category") == 1:
     print("C.) Objective - C programming language")
     print("D.) None of the above")
 
+    Q1C1Answer = "A" # right answer to question 1
+    Q1C1Response = input("Your Answer: ")
+    backgroundResponse = input("Would you like to see background information on this question?")
+
+    if Q1C1Response = "A" or Q1C1Response = "a":
+
+        print("Well done, " + Q1C1Response + " is correct!")
+        score = score + 3
