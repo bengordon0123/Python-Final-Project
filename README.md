@@ -48,7 +48,7 @@ if input("Choose a Category") == 1:
            Q2C1Answer = "C" # correct answer to question 2
            Q2C1Response = input("Your Answer: ")
            
-               if Q2C1Response = "C" or Q1C1Response = "c":
+               if Q2C1Response = "C" or Q2C1Response = "c":
 
         
        
