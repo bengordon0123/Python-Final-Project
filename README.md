@@ -49,8 +49,20 @@ if input("Choose a Category") == 1:
            Q2C1Response = input("Your Answer: ")
            
                if Q2C1Response = "C" or Q2C1Response = "c":
+print("Well done, " + Q2C1Response + " is correct!")
+score = score + 3
+     backgroundResponse = input("Would you like to see background information on this question?")
+          if backgroundResponse = "YES":
+          print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
+          
+          else:
+          
+          print("Sorry, " + Q2C1Response + " is incorrect!")
+          score = score - 1
+          backgroundResponse = input("Would you like to see background infromation on this question?")
+           if backgroundResponse = "YES":
+          print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
 
-        
        
         
         
