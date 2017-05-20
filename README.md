@@ -18,9 +18,13 @@ if chooseCategory == 1:
 
 # question 1
    print("Question 1: What was the name of the software created by Steve Jobs that was eventually adapted by Apple?")
+   
    print("A.) NextStep (NS)")
+   
    print("B.) Apple Uno")
+   
    print("C.) Objective - C programming language")
+   
    print("D.) None of the above")
 
     Q1C1Answer = "A" # right answer to question 1
@@ -42,13 +46,17 @@ if chooseCategory == 1:
         else:
         
         print("Sorry, " + Q1C1Response + " is incorrect!")
+        
         score = score - 1
+        
         backgroundResponse = input("Would you like to see background information on this question?")
+        
         if backgroundResponse == "YES":
            print("Question 1 Background Response: NextStep, commonly referred to as NS, was the original software Apple used behind their technology. The late Steve Jobs originally created the technology and Apple ultimately decided to re-hire Jobs and use his technology after initially firing him. The prefix of NextStep (NS) is used in the Objective - C programming language as part of the syntax.")
            
       # question 2
         print("Question 2: What was Snapchat’s original name when the company was initially formed?")
+        
            print("A.) PhotoGhost")
            
            print("B.) SnapTalk")
@@ -84,14 +92,18 @@ score = score + 3
       # question 3
           
   print("Question 3: How much did Facebook offer to buy Snapchat for?")
-          print("A.) $100 million")
-          print("B.) $3 billion")
-          print("C.) $1 billion")
-          print("D.) $400 million")
+  
+    print("A.) $100 million")
+    
+   print("B.) $3 billion")
           
-          Q3C1Response = input("Your Answer: ")
+   print("C.) $1 billion")
+   
+   print("D.) $400 million")
           
-          Q3C1Answer = "B" # correct answer to question 3
+  Q3C1Response = input("Your Answer: ")
+          
+   Q3C1Answer = "B" # correct answer to question 3
           if Q3C1Response == "B" or Q3C1Response == "b":
           
           print("Well done, " + Q3C1Response + " is correct!")
@@ -110,9 +122,13 @@ score = score + 3
                    
    # question 4
      print("Question 4: What was the name and basis of the app that eventually became Instagram?")
-            print("A.) Insta, photo sharing app that had no filters")
-            print("B.) Burbn, location sharing app similar to FourSquare")
+     
+        print("A.) Insta, photo sharing app that had no filters")
+            
+         print("B.) Burbn, location sharing app similar to FourSquare")
+            
             print("C.) Photobook, photo app where you can apply filters but can't share photos")
+            
             print("D.) Picagram, entertainment app that enabled photo and video sharing in a variety of ways")
             
             Q4C1Response = input("Your Answer: ")
@@ -137,9 +153,13 @@ score = score + 3
           # question 5, final question of category 1
           
  print("Question 5: What is the name of the VR company that Facebook acquired?")
+ 
  print("A.) WhatsApp")
+ 
  print("B.) HTC")
+ 
  print("C.) Sony")
+ 
  print("D.) Oculus")
  
  Q5C1Response = input("Your Answer: ")
@@ -168,9 +188,13 @@ if chooseCategory == 2:
 # question 1 of Category 2 (Programming Frameworks)
 
 print("Question 1: What programming language was used to program iPhone apps such as Snapchat, Vine, and Instagram?")
+
 print("A.) Swift")
+
 print("B.) Objective - C")
+
 print("C.) Python")
+
 print("D.) HTML")
 
 Q1C2Response = input("Your Answer: ")
@@ -199,9 +223,13 @@ score = score + 3
  # question 2 
  
  print("Question 2: What is considered the beginner programming language for building websites and web frameworks?")
+ 
  print("A.) Ruby on Rails")
+ 
  print("B.) Python")
+ 
  print("C.) Objective - C")
+ 
  print("D.) PHP")
  
  Q2C2Response = input("Your Answer: ")
@@ -232,9 +260,13 @@ backgroundResponse = input("Would you like to see background information on this
  # question 3
  
  print("Question 3: What are the three programming languages commonly associated with developing smartphone applications?")
+ 
  print("A.) PHP, Java, Swift")
+ 
  print("B.) Java, Objective - C, Swift")
+ 
  print("C.) Python, PHP, HTML")
+ 
  print("D.) Objective - C, Swift, PHP")
  
  Q3C2Response = input("Your Answer: ")
@@ -265,9 +297,13 @@ backgroundResponse = input("Would you like to see background information on this
  # question 4
  
  print("Question 4: What tasks do for and while loops accomplish?")
+ 
  print("A.) For loops run a specified task once and while loops run a task repetitively.")
+ 
  print("B.) For loops run a specified task multiple times and while loops run a task for a certain amount of time.")
+ 
  print("C.) For loops run a specified task once and while loops run a task repetitively.")
+ 
  print("D.) For loops run a specified task multiple times and while loops run an undefined set of conditions.")
  
  Q4C2Response = input("Your Answer: ")
@@ -298,9 +334,13 @@ backgroundResponse = input("Would you like to see background information on this
  # question 5
  
  print("What are constants and where do they get defined within a code document?")
+ 
  print("A.) Constants are class variables that can be applied to any method and they get defined outside the scope of the main code document.")
+ 
  print("B.) Constants are specific variables that are defined within specific functions inside the scope of the main code document and can only be applied to certain methods.")
+ 
  print("C.) Constants are specific variables that are defined outside the scope of the main code document and can only be applied to certain methods.")
+ 
  print("D.) Constants are class variables that can only be applied to specific methods and they get defined outside the scope of the main code document. ")
  
  Q5C2Response = input("Your Answer: ")
