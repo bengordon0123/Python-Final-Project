@@ -62,6 +62,10 @@ score = score + 3
           backgroundResponse = input("Would you like to see background infromation on this question?")
            if backgroundResponse = "YES":
           print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
+          
+          # question 3
+          
+          print("Question 3:
 
        
         
