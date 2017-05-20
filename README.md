@@ -24,10 +24,14 @@ if input("Choose a Category") == 1:
 
     if Q1C1Response = "A" or Q1C1Response = "a":
 
-        print("Well done, " + Q1C1Response + " is correct!")
-        score = score + 3
-        backgroundResponse = input("Would you like to see background information on this question?")
-        if backgroundResponse = "YES":
+    print("Well done, " + Q1C1Response + " is correct!")
+    
+    score = score + 3
+    
+    backgroundResponse = input("Would you like to see background information on this question?")
+    
+       if backgroundResponse = "YES":
+       
         print("Question 1 Background Response: NextStep, commonly referred to as NS, was the original software Apple used behind their technology. The late Steve Jobs originally created the technology and Apple ultimately decided to re-hire Jobs and use his technology after initially firing him. The prefix of NextStep (NS) is used in the Objective - C programming language as part of the syntax.")
         
         else:
@@ -39,33 +43,42 @@ if input("Choose a Category") == 1:
            print("Question 1 Background Response: NextStep, commonly referred to as NS, was the original software Apple used behind their technology. The late Steve Jobs originally created the technology and Apple ultimately decided to re-hire Jobs and use his technology after initially firing him. The prefix of NextStep (NS) is used in the Objective - C programming language as part of the syntax.")
            
       # question 2
-           print("Question 2: What was Snapchat’s original name when the company was initially formed?")
+        print("Question 2: What was Snapchat’s original name when the company was initially formed?")
            print("A.) PhotoGhost")
+           
            print("B.) SnapTalk")
+           
            print("C.) Picaboo")
+           
            print("D.) Ghost Record")
            
            Q2C1Answer = "C" # correct answer to question 2
            Q2C1Response = input("Your Answer: ")
            
-               if Q2C1Response = "C" or Q2C1Response = "c":
+          if Q2C1Response = "C" or Q2C1Response = "c":
 print("Well done, " + Q2C1Response + " is correct!")
+
 score = score + 3
      backgroundResponse = input("Would you like to see background information on this question?")
-          if backgroundResponse = "YES":
-          print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
+     
+      if backgroundResponse = "YES":
+      
+   print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
           
-          else:
+     else:
           
-          print("Sorry, " + Q2C1Response + " is incorrect!")
-          score = score - 1
-          backgroundResponse = input("Would you like to see background infromation on this question?")
-           if backgroundResponse = "YES":
-          print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
+     print("Sorry, " + Q2C1Response + " is incorrect!")
+     
+     score = score - 1
+     
+     backgroundResponse = input("Would you like to see background infromation on this question?")
           
-          # question 3
+      if backgroundResponse = "YES":
+      print("Snapchat’s original name was Picaboo. Picaboo was removed as the name of the social media giant after Snapchat underwent a re-design and launched to become one of the most successful iOS apps in history.")
           
-          print("Question 3: How much did Facebook offer to buy Snapchat for?")
+      # question 3
+          
+  print("Question 3: How much did Facebook offer to buy Snapchat for?")
           print("A.) $100 million")
           print("B.) $3 billion")
           print("C.) $1 billion")
@@ -90,7 +103,8 @@ score = score + 3
            if backgroundResponse = "YES":
                      print("Facebook offered to buy Snapchat for $3 billion. Snapchat co-founders Evan Spiegel and Bobby Murphy met with Mark Zuckerberg in a secret apartment in Los Angeles and ultimately turned down his offer, stating the potential to build something big was too much to turn down. Fun fact: Google offered to acquire Snapchat for $4 billion, and the Snapchat founders turned that down as well! Turned out to be a smart move, as SNAP is now trading on the stock market and went public for approximately $20 billion dollars.")
                      
-                     # question 4
+             # question 4
+             
 
 
 
