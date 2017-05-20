@@ -1,7 +1,11 @@
 # Python-Final-Project
+
 print("This is Technowledgy Trivia! This multiple choice trivia quiz will test your knowledge on technology in business and common programming frameworks.")
+
 print("When answering each question, put the letter of the multiple choice option you believe is correct.")
+
 print("After each question, answer 'YES' if you'd like to see background information on the topic you were quizzed on.")
+
 # set quiz score to 0
 
 score = 0
