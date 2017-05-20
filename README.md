@@ -13,7 +13,8 @@ score = int(score)
 
 print("You have two categories to choose from. Enter '1' for Business Technology or enter '2' for Programming Frameworks.")
 
-if input("Choose a Category") == 1:
+chooseCategory = input("Choose a Category")
+if chooseCategory == 1:
 
    # question 1
     print("Question 1: What was the name of the software created by Steve Jobs that was eventually adapted by Apple?")
@@ -162,6 +163,176 @@ backgroundResponse = input("Would you like to see background information on this
  print("Oculus is the name of the VR company that was acquired by Facebook. The acquisition price was $2 billion and allowed FB to become a power player in the VR industry.")
             
             
+if chooseCategory == 2:
+
+# question 1 of Category 2 (Programming Frameworks)
+
+print("Question 1: What programming language was used to program iPhone apps such as Snapchat, Vine, and Instagram?")
+print("A.) Swift")
+print("B.) Objective - C")
+print("C.) Python")
+print("D.) HTML")
+
+Q1C2Response = input("Your Answer: ")
+Q1C2Answer = "B" # correct answer to question 1
+
+if Q1C2Response = "B" or "b":
+
+print("Well done, " + Q1C2Response + " is correct!")
+score = score + 3
+ backgroundResponse = input("Would you like to see background information on this question?")
+ if backgroundResponse = "YES":
+ print("Objective - C was used to program iPhone apps such as Snapchat, Vine, and Instagram. Why not Swift? Swift was first released to the public in the summer of 2014 and is still a relatively new language compared to Objective - C. With that being said, many apps have changed their codebases from Objective - C to Swift due to the latter language’s versatility.")
+ 
+ else:
+ 
+ print("Sorry, " + Q1C2Response + " is incorrect!")
+ 
+ score = score - 1
+ 
+ backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse = "YES":
+ 
+ print("Objective - C was used to program iPhone apps such as Snapchat, Vine, and Instagram. Why not Swift? Swift was first released to the public in the summer of 2014 and is still a relatively new language compared to Objective - C. With that being said, many apps have changed their codebases from Objective - C to Swift due to the latter language’s versatility.")
+ 
+ # question 2 
+ 
+ print("Question 2: What is considered the beginner programming language for building websites and web frameworks?")
+ print("A.) Ruby on Rails")
+ print("B.) Python")
+ print("C.) Objective - C")
+ print("D.) PHP")
+ 
+ Q2C2Response = input("Your Answer: ")
+ Q2C2Answer = "A" # correct answer to question 2
+ 
+ if Q2C2Response = "C" or "c":
+ 
+ print("Well done, " + Q2C2Response + " is correct!")
+ score = score + 3
+ 
+backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse = "YES":
+ 
+ print("Ruby on Rails is considered the most flexible language for beginner programmers looking to start web development.")
+ 
+ else: 
+ 
+ print("Sorry, " + Q2C2Response + " is incorrect!")
+ score = score - 1
+ 
+backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse = "YES":
+ 
+ print("Ruby on Rails is considered the most flexible language for beginner programmers looking to start web development.")
+ 
+ # question 3
+ 
+ print("Question 3: What are the three programming languages commonly associated with developing smartphone applications?")
+ print("A.) PHP, Java, Swift")
+ print("B.) Java, Objective - C, Swift")
+ print("C.) Python, PHP, HTML")
+ print("D.) Objective - C, Swift, PHP")
+ 
+ Q3C2Response = input("Your Answer: ")
+ Q3C2Answer = "B" # correct answer to question 3
+ 
+ if Q3C2Response = "B" or "b":
+ 
+ print("Well done, " + Q3C2Response + " is correct!")
+ score = score + 3
+ 
+ backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse = "YES":
+ 
+ print("Java, Objective - C, and Swift are the three central languages used to program smartphone applications. Objective - C and Swift are used to create iPhone apps, while Java is the programming language for Android developers.")
+ 
+ else:
+ 
+ print("Sorry, " + Q3C2Response + " is incorrect!")
+ score = score - 1
+ 
+  backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse = "YES":
+ 
+ print("Java, Objective - C, and Swift are the three central languages used to program smartphone applications. Objective - C and Swift are used to create iPhone apps, while Java is the programming language for Android developers.")
+ 
+ # question 4
+ 
+ print("Question 4: What tasks do for and while loops accomplish?")
+ print("A.) For loops run a specified task once and while loops run a task repetitively.")
+ print("B.) For loops run a specified task multiple times and while loops run a task for a certain amount of time.")
+ print("C.) For loops run a specified task once and while loops run a task repetitively.")
+ print("D.) For loops run a specified task multiple times and while loops run an undefined set of conditions.")
+ 
+ Q4C2Response = input("Your Answer: ")
+ Q4C2Answer = "B" # correct answer to question 4
+ 
+ if Q4C2Response == "B" or "b":
+ 
+ print("Well done, " + Q4C2Response + " is correct!")
+ score = score + 3
+ 
+ backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse == "YES":
+ 
+ print("For loops run a specified task multiple times and while loops run a task for a certain amount of time. For loops have parameters that run the code more than once, and while loops run code for only a certain amount of time depending on the parameters set in the code.")
+ 
+ else: 
+ 
+ print("Sorry, " + Q4C2Response + " is incorrect!")
+ score = score - 1
+ 
+  backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse == "YES":
+ 
+ print("For loops run a specified task multiple times and while loops run a task for a certain amount of time. For loops have parameters that run the code more than once, and while loops run code for only a certain amount of time depending on the parameters set in the code.")
+ 
+ # question 5
+ 
+ print("What are constants and where do they get defined within a code document?")
+ print("A.) Constants are class variables that can be applied to any method and they get defined outside the scope of the main code document.")
+ print("B.) Constants are specific variables that are defined within specific functions inside the scope of the main code document and can only be applied to certain methods.")
+ print("C.) Constants are specific variables that are defined outside the scope of the main code document and can only be applied to certain methods.")
+ print("D.) Constants are class variables that can only be applied to specific methods and they get defined outside the scope of the main code document. ")
+ 
+ Q5C2Response = input("Your Answer: ")
+ Q5C2Answer = "A" # correct answer to question 5
+ 
+ if Q5C2Response == "A" or "a": 
+ 
+ print("Well done, " + Q5C2Response + " is correct!")
+ score = score + 3
+ 
+ backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse == "YES":
+ 
+ print("Constants are class variables that can be applied to any method and they get defined outside the scope of the main code document. When defining a constant before your main code methods, it can be used anywhere within the main scope of the code as long as the constant (hard - coded variable) is referenced correctly.")
+ 
+ else: 
+ 
+ print("Sorry, " + Q5C2Response + " is incorrect!")
+ score = score - 1
+ 
+ backgroundResponse = input("Would you like to see background information on this question?")
+ 
+ if backgroundResponse == "YES":
+ 
+ print("Constants are class variables that can be applied to any method and they get defined outside the scope of the main code document. When defining a constant before your main code methods, it can be used anywhere within the main scope of the code as long as the constant (hard - coded variable) is referenced correctly.")
+ 
+ 
+ 
+ 
+
+
 
 
 
