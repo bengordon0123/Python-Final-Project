@@ -104,7 +104,60 @@ score = score + 3
                      print("Facebook offered to buy Snapchat for $3 billion. Snapchat co-founders Evan Spiegel and Bobby Murphy met with Mark Zuckerberg in a secret apartment in Los Angeles and ultimately turned down his offer, stating the potential to build something big was too much to turn down. Fun fact: Google offered to acquire Snapchat for $4 billion, and the Snapchat founders turned that down as well! Turned out to be a smart move, as SNAP is now trading on the stock market and went public for approximately $20 billion dollars.")
                      
              # question 4
-             
+            print("Question 4: What was the name and basis of the app that eventually became Instagram?")
+            print("A.) Insta, photo sharing app that had no filters")
+            print("B.) Burbn, location sharing app similar to FourSquare")
+            print("C.) Photobook, photo app where you can apply filters but can't share photos")
+            print("D.) Picagram, entertainment app that enabled photo and video sharing in a variety of ways")
+            
+            Q4C1Response = input("Your Answer: ")
+            Q4C1Answer = "B" # correct answer to question 4
+            
+            if Q4C1Response = "B" or "b":
+            
+            print("Well done, " + Q4C1Response + " is correct!")
+            score = score + 3
+          backgroundResponse = input("Would you like to see background information on this question?")
+          if backgroundResponse = "YES":
+          print("Instagram was first called ‘Burbn,’ and it's core purpose was to act as a location check - in app similar to Foursquare. Instagram founder Kevin Systrom and CTO Mike Krieger saw that Burbn users shared photos on the app more than anything else, so they decided to only use the photo-sharing portion of the app and turn it into Instagram. Systrom said he named the original app ‘Burbn’ because of how much he likes whiskey!")
+          
+          else:
+          
+          print("Sorry, " + Q4C1Response + " is incorrect!")
+          score = score - 1
+          backgroundResponse = input("Would you like to see background information on this question?")
+          if backgroundResponse = "YES":
+          print("Instagram was first called ‘Burbn,’ and it's core purpose was to act as a location check - in app similar to Foursquare. Instagram founder Kevin Systrom and CTO Mike Krieger saw that Burbn users shared photos on the app more than anything else, so they decided to only use the photo-sharing portion of the app and turn it into Instagram. Systrom said he named the original app ‘Burbn’ because of how much he likes whiskey!")
+          
+          # question 5, final question of category 1
+          
+ print("Question 5: What is the name of the VR company that Facebook acquired?")
+ print("A.) WhatsApp")
+ print("B.) HTC")
+ print("C.) Sony")
+ print("D.) Oculus")
+ 
+ Q5C1Response = input("Your Answer: ")
+ Q5C1Answer = "D" # correct answer to question 5
+ if Q5C1Response = "D" or "d":
+ 
+ print("Well done, " + Q5C1Response + " is correct!")
+ score = score + 3
+ backgroundResponse = input("Would you like to see background information on this question?")
+ if backgroundResponse = "YES":
+ 
+ print("Oculus is the name of the VR company that was acquired by Facebook. The acquisition price was $2 billion and allowed FB to become a power player in the VR industry.")
+ 
+ else:
+ 
+ print("Sorry, " + Q5C1Response + " is incorrect!")
+ score = score - 1
+backgroundResponse = input("Would you like to see background information on this question?")
+ if backgroundResponse = "YES":
+ 
+ print("Oculus is the name of the VR company that was acquired by Facebook. The acquisition price was $2 billion and allowed FB to become a power player in the VR industry.")
+            
+            
 
 
 
